@@ -1,12 +1,13 @@
 import { Doc } from "../../components";
 import ActionButtons from "../ActionButtons";
+import { Container } from "./styled";
 
 const DocViewer = () => {
   return (
-    <div>
+    <Container>
       <ActionButtons />
       <Doc />
-    </div>
+    </Container>
   )
 }
 

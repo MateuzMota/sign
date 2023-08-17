@@ -1,4 +1,5 @@
 import { ActionButton } from "../../components";
+import { Container } from "./styled";
 
 const ActionButtons = () => {
   const zoomIn = () => console.log('zoomIn')
@@ -8,11 +9,11 @@ const ActionButtons = () => {
   const rotate = () => console.log('rotate')
 
   return (
-    <div className="temp-class-container">
-      <ActionButton handleClick={zoomIn}></ActionButton>
-      <ActionButton handleClick={zoomOut}></ActionButton>
-      <ActionButton handleClick={rotate}></ActionButton>
-    </div>
+    <Container>
+      <ActionButton handleClick={zoomIn}></ActionButton>+
+      <ActionButton handleClick={zoomOut}></ActionButton>-
+      <ActionButton handleClick={rotate}></ActionButton>o
+    </Container>
   )
 }
 

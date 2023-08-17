@@ -1,6 +1,8 @@
+import { Container } from "./styled"
+
 const Doc = () => {
   return (
-    <div className="temp-class-container"></div>
+    <Container></Container>
   )
 }
 

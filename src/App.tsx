@@ -1,6 +1,13 @@
+import { Main } from "./AppStyled"
+import DocViewer from "./patterns/DocViewer"
+import MenuSection from "./patterns/MenuSection"
+
 function App() {
   return (
-    <div>Hello world!</div>
+    <Main>
+      <MenuSection />
+      <DocViewer />
+    </Main>
   )
 }
 
