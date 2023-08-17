@@ -1,10 +1,11 @@
+import { Doc } from "../../components";
 import ActionButtons from "../ActionButtons";
 
 const DocViewer = () => {
   return (
     <div>
       <ActionButtons />
-      <div className="temp-class-document"></div>
+      <Doc />
     </div>
   )
 }
